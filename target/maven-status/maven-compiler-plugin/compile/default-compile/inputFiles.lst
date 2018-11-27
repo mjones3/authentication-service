@@ -1,0 +1,14 @@
+/Users/mjones/dev/work/practice-journal/authentication-service/src/main/java/com/practicejournal/authentication/utils/UserContextHolder.java
+/Users/mjones/dev/work/practice-journal/authentication-service/src/main/java/com/practicejournal/authentication/config/ServiceConfig.java
+/Users/mjones/dev/work/practice-journal/authentication-service/src/main/java/com/practicejournal/authentication/utils/UserContextFilter.java
+/Users/mjones/dev/work/practice-journal/authentication-service/src/main/java/com/practicejournal/authentication/hystrix/ThreadLocalConfiguration.java
+/Users/mjones/dev/work/practice-journal/authentication-service/src/main/java/com/practicejournal/authentication/model/UserOrganization.java
+/Users/mjones/dev/work/practice-journal/authentication-service/src/main/java/com/practicejournal/authentication/utils/UserContextInterceptor.java
+/Users/mjones/dev/work/practice-journal/authentication-service/src/main/java/com/practicejournal/authentication/InspectHeaderFilter.java
+/Users/mjones/dev/work/practice-journal/authentication-service/src/main/java/com/practicejournal/authentication/hystrix/DelegatingUserContextCallable.java
+/Users/mjones/dev/work/practice-journal/authentication-service/src/main/java/com/practicejournal/authentication/utils/UserContext.java
+/Users/mjones/dev/work/practice-journal/authentication-service/src/main/java/com/practicejournal/authentication/repository/OrgUserRepository.java
+/Users/mjones/dev/work/practice-journal/authentication-service/src/main/java/com/practicejournal/authentication/Application.java
+/Users/mjones/dev/work/practice-journal/authentication-service/src/main/java/com/practicejournal/authentication/hystrix/ThreadLocalAwareStrategy.java
+/Users/mjones/dev/work/practice-journal/authentication-service/src/main/java/com/practicejournal/authentication/security/OAuth2Config.java
+/Users/mjones/dev/work/practice-journal/authentication-service/src/main/java/com/practicejournal/authentication/security/WebSecurityConfigurer.java
