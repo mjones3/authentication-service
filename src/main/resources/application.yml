@@ -1,9 +1,25 @@
 #Setting the logging levels for the service
+spring:
+  application:
+    name: authenticationservice
+  profiles:
+    active:
+      default
+#  cloud:
+#    config:
+#      enabled: true
+      
+
 logging:
   level:
     com.netflix: WARN
     org.springframework.web: WARN
     com.practicejournal: DEBUG
+    
+server:
+  contextPath:   /auth
+
+debug: true
 
 eureka:
   instance:
@@ -13,6 +29,3 @@ eureka:
     fetchRegistry: true
     serviceUrl:
         defaultZone: http://eureka:8761/eureka/
-
-server:
-  contextPath:   /auth

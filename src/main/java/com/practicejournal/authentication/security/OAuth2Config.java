@@ -3,6 +3,7 @@ package com.practicejournal.authentication.security;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 import org.springframework.core.annotation.Order;
@@ -23,6 +24,7 @@ import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 import java.util.Arrays;
 
 @Configuration
+@ComponentScan("com.practicejournal")
 public class OAuth2Config extends AuthorizationServerConfigurerAdapter {
 
     @Autowired
